@@ -1,5 +1,14 @@
-/*
+const cowsay = require('cowsay')
 
+console.log(cowsay.say({
+    text : "La quiero mucho gfechita",
+    e : "oO",
+    T : "U "
+}));
+
+// or cowsay.think()
+
+/*
 var uno = 2
 var uno = "hola"
 
@@ -35,8 +44,9 @@ let objeto = {
     valor1: 0,
     valor2: 1
 }
-
 */
+
+/*
 const { frutas, money } = require('./frutas')
 
 frutas.forEach(fruta => {
@@ -44,3 +54,4 @@ frutas.forEach(fruta => {
 })
 
 console.log('Dinero: ', money)
+*/
